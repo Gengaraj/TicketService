@@ -42,7 +42,7 @@ public class App {
 					System.out.println("Requested Seats are ONHOLD, id# "+ seatHold.getId());
 					
 					for (int i = 0; i < seatHold.getSeats().toArray().length; i++) {
-						System.out.print (seatHold.getSeats().toArray()[0]+ " ");
+						System.out.print (seatHold.getSeats().toArray()[1]+ " ");
 					}
 					
 					System.out.print("\nPlease enter 1 to reserve the seats held \n");
@@ -54,7 +54,7 @@ public class App {
 					}
 												
 				}			
-				System.out.println("Please press 1 if you want to continue again");
+				System.out.println("Please press 1 if you want to continue again or any other key terminate");
 				if(scanner.nextInt()!=1){
 					rotate=false;
 				}
