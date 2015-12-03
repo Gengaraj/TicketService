@@ -54,7 +54,7 @@ public class App {
 					}
 												
 				}			
-				System.out.println("Please press 1 if you want to continue again or any other key terminate");
+				System.out.println("Please press 1 if you want to continue again or press any other key to terminate");
 				if(scanner.nextInt()!=1){
 					rotate=false;
 				}
